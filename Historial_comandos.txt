@@ -1,0 +1,280 @@
+4
+vagrant ssh
+ls
+whoami
+pwd
+man
+man man
+man ls
+ls -l
+cat README
+cat
+cd repogit
+ls
+clean
+ls
+git clone git@github.com:LucianaRadimak/radimak_vagrant.git
+ls
+cd radimak_vagrant/
+ls
+history
+history > historial.txt
+ls
+git status
+gitt add .
+git commit -m "primer commit"
+git config --global user.email "radimakluciana@gmail.com"
+git config --global user.name "Radimak Luciana"
+git commit -m "primer commit"
+git push
+git status
+-git add .
+-git commit -m "comentario"
+git push
+git status
+git add .
+git commit -m "primer commit"
+git push
+exit
+vagrant status
+ls
+ls - la
+ls -la
+ssh-keygen -t ed25519 
+ls
+ls -la
+cs. ssh
+cd.ssh
+cd .ssh
+ls
+cat id_ed25519.pub
+ls
+echo "hola a tod@s" > archivo1.txt
+ls
+cat archivo1.txt
+cd repogit
+ls
+cd ..
+cd carpeta_compartida
+ls
+cd ..
+echo "chau" >> archivo1.txt
+cat archivo1.txt
+echo "buenas" > archivo1.txt
+cat archivo1.txt
+bc 
+ls
+exit
+cat << fin
+sdasd
+ddsgfsdg
+fin
+
+ls
+bc<<<1+4
+ls
+cd repogit/
+ls
+cd radimak_vagrant/
+ls
+cd ..
+ls
+cd UTN-FRA_SO_onBording/
+LS
+ls
+cd ..
+ls
+cd radimak_vagrant/
+ls
+cd ..
+cd..
+cd ..
+ls
+echo "hola"> archivo1.txt
+ls
+cat archivo1.txt 
+echo "chau" >> archivo1.txt
+cat archivo1.txt 
+cat << FIN > archivo2.txt
+hola este es
+mi archivo 2
+y lo estoy editando usando redireccionamiento
+fin
+FIN
+
+cat archivo2.txt
+vagrant halt
+exit
+vagrant ssh
+ls-la
+ls- la
+ls -la
+ssh-keygen -t ed255019
+cd. ssh
+ls -la
+cd. ssh
+cd .ssh
+ls
+cat id_ed25519.pub
+cat $HOME/.ssh/*.pub
+cd ..
+ls
+cd
+cd repogit
+git clone git@github.com:LucianaRadimak/TP_AySO.git
+ls
+cd TP_AySO/
+LS
+ls
+pwd
+ls -l
+cat /etc/os-release
+grep help
+help
+help | grep grep
+help
+help grep grep
+cat help | grep grep
+help > help.txt
+cat help
+cat help.txt
+cat help.txt | grep grep
+cat help.txt | grep for
+cat help.txt | GREP
+cat help.txt | g
+cat help.txt | G
+cat help.txt | grep g
+man grep
+grep -i HOME_URL [200~/etc/os-release
+grep -i HOME_URL /etc/os-release
+grep home_url /etc/os-release
+grep -i HOME_URL /etc/os-release
+grep -i home_url /etc/os-release
+whoami
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuario.txt
+ls
+git add .
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+git status
+git commit -m "ADD: agregado 1er ejercicio
+sobre datos_usuarios.txt"
+cat /proc/cpuinfo
+cat /proc/cpuinfo grep -i model name
+cat /proc/cpuinfo grep -i "model name"
+cat /proc/cpuinfo | grep -i "model name"
+cat /proc/cpuinfo | grep -i "model name" | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat /proc/cpuinfo | grep -i "model name" | head -n1 >> datos_usuarios.txt
+cat datos_usuarios.txt
+echo "Usuario=$(whoami)" > datos_usuario.txt
+cat datos_usuarios.txt
+cat datos_usuario.txt
+cat /proc/cpuinfo | grep -i "model name" | head -n1 >> datos_usuario.txt
+cat datos_usuario.txt
+ls
+rm datos_usuarios.txt
+ls
+cat datos_usuario.txt
+git add .
+git commit -m "feat: Añadiendo informacion de CPU"
+git status
+man grep
+cat /etc/passwd
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep nologin
+cat /etc/passwd | grep -v nologin
+cat /etc/passwd | grep -v nologin | head -n10
+cat /etc/passwd | grep -v nologin | head -n2
+cat /etc/passwd | grep -v nologin | head -n10
+man sort
+
+cat /etc/passwd
+cat /etc/passwd | grep -v nologin
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd > lista_ordenada
+ls
+cat lista_ordenada
+man sort
+sort lista_ordenada -k7
+sort lista_ordenada -t":" -k7
+ls
+rm lista_ordenada 
+rm help.txt 
+ls
+cat datos_usuario.txt 
+ls
+cat /etc/passwd
+grep -v nologin /etc/passwd
+grep nologin /etc/passwd
+grep -v nologin /etc/passwd
+grep -v nologin /etc/passwd > lista_ordenada
+cat lista_ordenada 
+man sort
+cat lista_ordenada 
+sort lista_ordenada -k7
+sort lista_ordenada -t":" -k7
+sort lista_ordenada -k7
+sort lista_ordenada -t":" -k7
+sort lista_ordenada -t"-" -k7
+sort lista_ordenada -k7 > lista_ordenada 
+cat lista_ordenada 
+cat /etc/passwd
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada 
+cat lista_ordenada 
+grep -v nologin /etc/passwd > lista_ordenada 
+cat lista_ordenada 
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada 
+cat lista_ordenada 
+grep -v nologin /etc/passwd | sort -t"----" -k7 > lista_ordenada 
+cat lista_ordenada 
+grep -v nologin /etc/passwd | sort -t":" -k7 > lista_ordenada 
+cat lista_ordenada 
+ls
+git add .
+git commit -m "ADD: Listado de usuarios ordenada"
+git status
+git push
+apropos 
+apropos "dump traffic"
+apropos "dump traffic" > comando_dump_net
+ls
+echo comando_dump_net 
+echo apropos "dump traffic" >> comando_dump_net
+ls
+cat comando_dump_net 
+tcpdump
+git add .
+git commit -m "ADD: Comando para capturar y analizar el trafico de red"
+git status
+cat comando_dump_net 
+cat << end >> README.md 
+Alumno: Luciana Radimak
+Division: 113
+Turno: Mañana
+end
+
+cat README.md 
+cat < end >> README.md 
+Alumno: Luciana Radimak
+Division: 113
+Turno: Mañana
+end
+cat < end >> README.md 
+cat << end > README.md 
+Alumno: Luciana Radimak
+Division: 113
+Turno: Mañana
+end
+
+cat README.md 
+git add .
+git commit -m "Docs: agrego seccion sobre mi"
+git status
+git push
+history -a
+history -a $HOME/.bash_history
+ls -la $HOME
+history -a $HOME/.bash_history
